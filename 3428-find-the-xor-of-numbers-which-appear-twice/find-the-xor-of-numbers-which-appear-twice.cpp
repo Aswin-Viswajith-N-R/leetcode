@@ -1,7 +1,6 @@
 class Solution {
 public:
     int duplicateNumbersXOR(vector<int>& nums) {
-        int n = nums.size();
         unordered_map<int,int>mpp;
         int x_or = 0;
         for(auto i : nums)
