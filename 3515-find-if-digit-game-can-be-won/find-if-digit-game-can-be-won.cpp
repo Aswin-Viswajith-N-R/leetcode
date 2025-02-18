@@ -13,7 +13,7 @@ public:
                 sum2+=nums[i];
             }
         }
-        if(sum1>sum2 || sum2>sum1)
+        if(sum1!=sum2)
         {
             return true;
         }
